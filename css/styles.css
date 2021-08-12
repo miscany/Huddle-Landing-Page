@@ -101,7 +101,8 @@ i {
 
 @media screen and (min-width: 1052px) {
   body {
-    background: #674baf url("./images/bg-desktop.svg") no-repeat;
+    background: #674baf url("/images/bg-desktop.svg") no-repeat;
+    background-size: 100%;
   }
   .flex-container {
     display: flex;
@@ -139,5 +140,12 @@ i {
   }
   ul {
     float: right;
+  }
+  ul li {
+    width: 50px;
+    height: 50px;
+  }
+  i {
+    font-size: 25px;
   }
 }
